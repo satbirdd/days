@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= f.label :score %>
-    <%= f.number_field :score %>
+    <%= f.select :score, [[1, 1], [2, 2], [3, 3]], selected: 1 %>
   </div>
 
   <div class="actions">

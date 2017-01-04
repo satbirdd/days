@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= f.label :theme_id %>
-    <%= f.text_field :theme_id %>
+    <%= f.collection_select :theme_id, Theme.all, :id, :name %>
   </div>
 
   <div class="field">

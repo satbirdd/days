@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   devise_for :users
   resources :days
 
-  root "days#index"
+  root "days#new"
 end
